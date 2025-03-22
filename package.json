@@ -1,0 +1,25 @@
+{
+  "name": "krosh",
+  "description": "📟 Tiniest CLI Builder.",
+  "version": "0.0.1",
+  "license": "MIT",
+  "repository": "github:domin-mnd/krosh",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "bun run scripts/build.ts"
+  },
+  "engines": {
+    "node": ">=18.11.0 >=16.19.0",
+    "deno": ">=2"
+  },
+  "devDependencies": {
+    "@types/bun": "1.2.5",
+    "tsup": "^8.4.0",
+    "uglify-js": "3.19.3"
+  },
+  "peerDependencies": {
+    "typescript": "^5.8.2"
+  }
+}
