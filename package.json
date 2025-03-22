@@ -1,6 +1,14 @@
 {
   "name": "krosh",
   "description": "📟 Tiniest CLI Builder.",
+  "keywords": [
+    "cli",
+    "args",
+    "argv",
+    "terminal",
+    "node",
+    "bun"
+  ],
   "version": "0.0.1",
   "license": "MIT",
   "repository": "github:domin-mnd/krosh",
